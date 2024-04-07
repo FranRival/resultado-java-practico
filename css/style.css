@@ -136,6 +136,8 @@ nav {
 
 /*Mobile menu*/
 .mobile-menu {
+  position: absolute;
+  top: 60px;
   padding: 24px;
 }
 .mobile-menu a {
