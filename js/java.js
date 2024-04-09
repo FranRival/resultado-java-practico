@@ -6,7 +6,6 @@ const mobileMenu = document.querySelector('.mobile-menu')
 
 const aside = document.querySelector('.product-detail')
 
-//el error: al mee intentarlo, no tome en cuenta que tambien la imagen debe ser clikeable. 
 
 menuEmail.addEventListener('click', toggleDesktopMenu)
 menuHamIcon.addEventListener('click', toggleMobileMenu)
@@ -17,6 +16,12 @@ function toggleDesktopMenu (){
 }
 
 function toggleMobileMenu(){
+    const IsAsideClose = aside.classList.contains('inactive')
+
+    if (!IsAsideClose) {
+        aside.classList.add('inactive')
+       }
+
     mobileMenu.classList.toggle('inactive')
 }
 
@@ -24,11 +29,9 @@ function toggleCarritoMenu (){
     const IsMobileMenuClosed = mobileMenu.classList.contains('inactive')
 
     if (!IsMobileMenuClosed) {
-        //si el mobile menu esta open, hay que cerrarlo.
         mobileMenu.classList.add('inactive')
        }
 
        aside.classList.toggle('inactive')
-       //para que no se encimen los menus. 
-       
+
  }
