@@ -14,7 +14,6 @@ menuCarritoIcon.addEventListener('click', toggleCarritoMenu)
 
 function toggleDesktopMenu (){
     desktopMenu.classList.toggle('inactive')
-
 }
 
 function toggleMobileMenu(){
@@ -22,5 +21,14 @@ function toggleMobileMenu(){
 }
 
 function toggleCarritoMenu (){
-    aside.classList.toggle('inactive')
-}
+    const IsMobileMenuClosed = mobileMenu.classList.contains('inactive')
+
+    if (!IsMobileMenuClosed) {
+        //si el mobile menu esta open, hay que cerrarlo.
+        mobileMenu.classList.add('inactive')
+       }
+
+       aside.classList.toggle('inactive')
+       //para que no se encimen los menus. 
+       
+ }
