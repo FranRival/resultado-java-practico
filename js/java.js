@@ -21,7 +21,6 @@ function toggleMobileMenu(){
     if (!IsAsideClose) {
         aside.classList.add('inactive')
        }
-
     mobileMenu.classList.toggle('inactive')
 }
 
@@ -31,7 +30,29 @@ function toggleCarritoMenu (){
     if (!IsMobileMenuClosed) {
         mobileMenu.classList.add('inactive')
        }
-
        aside.classList.toggle('inactive')
-
  }
+
+//hciendo magia negra?
+
+const productList = []
+
+
+productList.push({
+    name: 'bike',
+    price: 120,
+    imagen: 'https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+})
+
+productList.push({
+    name: 'pantalla',
+    price: 220,
+    imagen: 'https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+})
+
+productList.push({
+    name: 'Computador',
+    price: 620,
+    imagen: 'https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+})
+
