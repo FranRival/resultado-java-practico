@@ -77,8 +77,8 @@ for (product of productList) { // magia?
     productCard.classList.add('product-card') //le agregamos una clase
 
     //product = {name, price, img} -> produt.image
-    const img = document.createElement('img')
-    img.setAttribute('src', product.imagen)
+    const productImg = document.createElement('img')
+    productImg.setAttribute('src', product.imagen)
 
     const productInfo = document.createElement('div')
     productInfo.classList.add('product-card') 
@@ -96,11 +96,14 @@ for (product of productList) { // magia?
 
     const productInfoFigure = document.createElement('div')
     const productImgCart = document.createElement('div')
-    img.setAttribute('src', './icons/bt_add_to_cart.svg')
+    productImg.setAttribute('src', './icons/bt_add_to_cart.svg')
     //i dont know porque estamos volviendo a instanciar la variable de img.
 
     productInfoFigure.appendChild(productImgCart)
 
     productInfo.appendChild(productInfoDiv)
     productInfo.appendChild(productInfoFigure)
+
+    productCard.appendChild(productImg)
+    productCard.appendChild(productInfo)
 }
