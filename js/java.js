@@ -5,6 +5,8 @@ const menuCarritoIcon = document.querySelector('.navbar-shopping-cart')
 const mobileMenu = document.querySelector('.mobile-menu')
 
 const aside = document.querySelector('.product-detail')
+const cardsContiner = document.querySelector('.cards-container')
+
 
 
 menuEmail.addEventListener('click', toggleDesktopMenu)
@@ -96,7 +98,7 @@ for (product of productList) { // magia?
 
     const productInfoFigure = document.createElement('div')
     const productImgCart = document.createElement('div')
-    productImg.setAttribute('src', './icons/bt_add_to_cart.svg')
+    productImgCart.setAttribute('src', './icons/bt_add_to_cart.svg')
     //i dont know porque estamos volviendo a instanciar la variable de img.
 
     productInfoFigure.appendChild(productImgCart)
@@ -106,4 +108,6 @@ for (product of productList) { // magia?
 
     productCard.appendChild(productImg)
     productCard.appendChild(productInfo)
+
+    cardsContiner.appendChild(productCard)
 }
