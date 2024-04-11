@@ -88,15 +88,19 @@ for (product of productList) { // magia?
 
     const productPrice = document.createElement('div')
     productPrice.innerText = '$' + product.price
-
     const productName = document.createElement('div')
     productName.innerText = product.name
 
+    productInfoDiv.appendChild(productPrice)
+    productInfoDiv.appendChild(productName) //aqui, no se porque esta happend this.
 
     const productInfoFigure = document.createElement('div')
     const productImgCart = document.createElement('div')
     img.setAttribute('src', './icons/bt_add_to_cart.svg')
     //i dont know porque estamos volviendo a instanciar la variable de img.
 
-    
+    productInfoFigure.appendChild(productImgCart)
+
+    productInfo.appendChild(productInfoDiv)
+    productInfo.appendChild(productInfoFigure)
 }
