@@ -35,7 +35,7 @@ function toggleCarritoMenu (){
        shoppingCartContainer.classList.toggle('inactive')
  }
 
-//hciendo magia negra?
+
 
 const productList = []
 
@@ -65,9 +65,9 @@ function renderProducts (arr){
         const productCard = document.createElement('div')
         productCard.classList.add('product-card')
     
-        //product = {name, price, img} -> produt.image
         const productImg = document.createElement('img')
         productImg.setAttribute('src', product.imagen)
+        productImg.addEventListener('click', console.log('mmm'))
     
         const productInfo = document.createElement('div')
         productInfo.classList.add('product-card') 
@@ -81,13 +81,12 @@ function renderProducts (arr){
         productName.innerText = product.name
     
         productInfoDiv.appendChild(productPrice)
-        productInfoDiv.appendChild(productName) //aqui, no se porque esta happend this.
-    
+        productInfoDiv.appendChild(productName) 
+
         const productInfoFigure = document.createElement('div')
         const productImgCart = document.createElement('div')
         productImgCart.setAttribute('src', './icons/bt_add_to_cart.svg')
-        //i dont know porque estamos volviendo a instanciar la variable de img.
-    
+
         productInfoFigure.appendChild(productImgCart)
     
         productInfo.appendChild(productInfoDiv)
@@ -100,7 +99,6 @@ function renderProducts (arr){
     }
 }
 
-//reutilizar codigo. + organizacion. para eso son las funciones. 
 
 
 renderProducts(productList)
