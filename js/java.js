@@ -67,7 +67,7 @@ function renderProducts (arr){
     
         const productImg = document.createElement('img')
         productImg.setAttribute('src', product.imagen)
-        productImg.addEventListener('click', console.log('mmm'))
+        productImg.addEventListener('click', console.log)
     
         const productInfo = document.createElement('div')
         productInfo.classList.add('product-card') 
