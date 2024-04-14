@@ -2,6 +2,9 @@ const menuEmail = document.querySelector('.navbar-email')
 const desktopMenu = document.querySelector('.desktop-menu')
 const menuHamIcon = document.querySelector('.menu')
 const menuCarritoIcon = document.querySelector('.navbar-shopping-cart')
+const productDetailIconClose = document.querySelector('.product-detail-close')
+
+
 const mobileMenu = document.querySelector('.mobile-menu')
 
 const shoppingCartContainer = document.querySelector('#shoppingCartContainer')
@@ -13,6 +16,7 @@ const cardsContiner = document.querySelector('.cards-container')
 menuEmail.addEventListener('click', toggleDesktopMenu)
 menuHamIcon.addEventListener('click', toggleMobileMenu)
 menuCarritoIcon.addEventListener('click', toggleCarritoMenu)
+productDetailIconClose.addEventListener('click', closeProductDetailAside)
 
 function toggleDesktopMenu (){
     desktopMenu.classList.toggle('inactive')
@@ -107,4 +111,8 @@ renderProducts(productList)
 
 function openProductDetailAside (){
     productDetailConteined.classList.remove('inactive')
+}
+
+function closeProductDetailAside (){
+    productDetailConteined.classList.add('inactive')
 }
