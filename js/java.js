@@ -38,14 +38,11 @@ function toggleCarritoMenu (){
         mobileMenu.classList.add('inactive')
        }
 
+     const IsProductDetailClose = productDetailConteined.classList.contains('inactive')
 
-       const IsProductDetailClose = productDetailConteined.classList.contains('inactive')
-
-       if (!IsProductDetailClose) {
-           productDetailConteined.classList.add('inactive')
-          }
-
-
+    if (!IsProductDetailClose) {
+        productDetailConteined.classList.add('inactive')
+        }
 
        shoppingCartContainer.classList.toggle('inactive')
  }
@@ -120,6 +117,8 @@ renderProducts(productList)
 
 
 function openProductDetailAside (){
+
+    shoppingCartContainer.classList.add('inactive')
     productDetailConteined.classList.remove('inactive')
 }
 
