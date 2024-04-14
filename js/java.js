@@ -5,6 +5,7 @@ const menuCarritoIcon = document.querySelector('.navbar-shopping-cart')
 const mobileMenu = document.querySelector('.mobile-menu')
 
 const shoppingCartContainer = document.querySelector('#shoppingCartContainer')
+const productDetailConteined = document.querySelector('#productDetail')
 const cardsContiner = document.querySelector('.cards-container')
 
 
@@ -67,7 +68,7 @@ function renderProducts (arr){
     
         const productImg = document.createElement('img')
         productImg.setAttribute('src', product.imagen)
-        productImg.addEventListener('click', console.log)
+        productImg.addEventListener('click', openProductDetailAside)
     
         const productInfo = document.createElement('div')
         productInfo.classList.add('product-card') 
@@ -102,3 +103,8 @@ function renderProducts (arr){
 
 
 renderProducts(productList)
+
+
+function openProductDetailAside (){
+    productDetailConteined.classList.remove('inactive')
+}
