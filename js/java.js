@@ -37,6 +37,16 @@ function toggleCarritoMenu (){
     if (!IsMobileMenuClosed) {
         mobileMenu.classList.add('inactive')
        }
+
+
+       const IsProductDetailClose = productDetailConteined.classList.contains('inactive')
+
+       if (!IsProductDetailClose) {
+           productDetailConteined.classList.add('inactive')
+          }
+
+
+
        shoppingCartContainer.classList.toggle('inactive')
  }
 
