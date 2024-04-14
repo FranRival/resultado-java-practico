@@ -28,6 +28,9 @@ function toggleMobileMenu(){
     if (!IsAsideClose) {
         shoppingCartContainer.classList.add('inactive')
        }
+
+       closeProductDetailAside()
+
     mobileMenu.classList.toggle('inactive')
 }
 
