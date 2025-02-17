@@ -133,6 +133,8 @@ function closeProductDetailAside (){
 
 //9c2172001d1ec05c18d9b3ab64bd82cd806453bb - nada. 
 
+//f2cf3380c48aee2717f4133173ddcfd4507c6d24 -- sign out
+
 //8fbab6d274ca4f0b4c448fb9280285cdc26f8ebc - categories
 
 //3ef4be7b6a0f3a3d4d32d7ea45686174617fc53d - toggle con el carro
@@ -142,3 +144,5 @@ function closeProductDetailAside (){
 
 
 //4324a5880e4d7420a67acf95eac2177a9532f278 - funciona la x y acercando y alejando el producto.
+
+
