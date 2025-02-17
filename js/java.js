@@ -132,3 +132,7 @@ function closeProductDetailAside (){
 
 
 //3ef4be7b6a0f3a3d4d32d7ea45686174617fc53d - toggle con el carro
+
+
+
+//4324a5880e4d7420a67acf95eac2177a9532f278 - funciona la x y acercando y alejando el producto.
