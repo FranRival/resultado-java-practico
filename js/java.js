@@ -146,6 +146,11 @@ function closeProductDetailAside (){
 
 //3ef4be7b6a0f3a3d4d32d7ea45686174617fc53d - toggle carrito.
 
+//a3fec185077d84ebe85fc22cf5fab227e233e5d4 - producto. 
+
+
+
+
 
 
 
