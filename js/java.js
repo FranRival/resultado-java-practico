@@ -131,6 +131,8 @@ function closeProductDetailAside (){
 
 
 
+//9c2172001d1ec05c18d9b3ab64bd82cd806453bb - nada. 
+
 //3ef4be7b6a0f3a3d4d32d7ea45686174617fc53d - toggle con el carro
 
 
