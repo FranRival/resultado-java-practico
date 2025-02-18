@@ -158,11 +158,6 @@ function closeProductDetailAside (){
 
 //fd259566f68d9cf415528c130d86cdb1816ad7db --- checkout por encima
 
-
-
-
-
-
 //4324a5880e4d7420a67acf95eac2177a9532f278 - funciona la x y acercando y alejando el producto.
 
 
