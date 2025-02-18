@@ -148,7 +148,7 @@ function closeProductDetailAside (){
 
 //a3fec185077d84ebe85fc22cf5fab227e233e5d4 - producto. 
 
-
+//5405aacab09e32484954c2971d4b0dbdd9f7e7ac - resto productos.
 
 
 
