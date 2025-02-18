@@ -56,21 +56,21 @@ const productList = []
 
 
 productList.push({
-    name: 'bike',
+    name: 'iphone',
     price: 120,
-    imagen: 'https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+    imagen: 'https://png.pngtree.com/png-clipart/20231005/original/pngtree-iphone-15-purple-png-image_13279636.png',
 })
 
 productList.push({
-    name: 'pantalla',
+    name: 'reloj',
     price: 220,
-    imagen: 'https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+    imagen: 'https://itronics.in/wp-content/uploads/2022/08/Series7-SS_Blue-03.png',
 })
 
 productList.push({
     name: 'Computador',
     price: 620,
-    imagen: 'https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+    imagen: 'https://images.prom.ua/4088483101_w600_h600_4088483101.jpg',
 })
 
 
