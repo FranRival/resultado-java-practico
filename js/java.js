@@ -150,7 +150,13 @@ function closeProductDetailAside (){
 
 //5405aacab09e32484954c2971d4b0dbdd9f7e7ac - resto productos.
 
+//2667be1458b7ac8c763815947a86fcd31e8ded03 ---- imagen rota de producto. no se sabe si funcionan los toggles. 
 
+//99fbfe215254a8bb34cbc1d511d91918de8c34f8 --- centrado con descripcion 
+
+//b73ccca4c343d39c7b9647d6a419312814fb9d78 --- full pantalla. 
+
+//fd259566f68d9cf415528c130d86cdb1816ad7db --- checkout por encima
 
 
 
