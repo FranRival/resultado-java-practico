@@ -161,5 +161,7 @@ function closeProductDetailAside (){
 //4324a5880e4d7420a67acf95eac2177a9532f278 - funciona la x y acercando y alejando el producto.
 
 
+//inyectar la informacion: HOW
+
 
 
