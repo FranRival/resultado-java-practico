@@ -162,12 +162,12 @@ function closeProductDetailAside (){
 //4324a5880e4d7420a67acf95eac2177a9532f278 - funciona la x y acercando y alejando el producto.
 
 
-//inyectar la informacion: HOW
-//el detalle esta en la linea 166 del HTML.
-//como jalamos la informacion al DOM.
 
 
-const contenedorTarjetas = document.getElementById('contenedor-tarjetas')
+
+
+
+const inyeccion = document.getElementById('inyectarAqui')
 
 
 function imagenProducto(){
@@ -177,12 +177,12 @@ function imagenProducto(){
         <p>${producto.precioProducto}</p>
         <p>${producto.descripcionProducto}</p>
         `
-
-
+        inyeccion.innerHTML+=placementSexo
     })
 }
 
-//como inyectamos esa informacion de array.
+//como inyectamos esta funcion
+//como ligamos la informacion de arriba al push de esta pagina.
 
 const imagenes = []
 
