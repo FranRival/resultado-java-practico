@@ -52,10 +52,8 @@ function toggleCarritoMenu (){
 
 
 
-//const productList = []
-let productList = new Mokepon
-let productList1 = new Mokepon
-let productList2 = new Mokepon
+const productList = []
+
 
 productList.push({
     name: 'iphone',
@@ -63,13 +61,13 @@ productList.push({
     imagen: 'https://png.pngtree.com/png-clipart/20231005/original/pngtree-iphone-15-purple-png-image_13279636.png',
 })
 
-productList1.push({
+productList.push({
     name: 'reloj',
     price: 220,
     imagen: 'https://itronics.in/wp-content/uploads/2022/08/Series7-SS_Blue-03.png',
 })
 
-productList2.push({
+productList.push({
     name: 'Computador',
     price: 620,
     imagen: 'https://images.prom.ua/4088483101_w600_h600_4088483101.jpg',
@@ -169,8 +167,19 @@ function closeProductDetailAside (){
 //como jalamos la informacion al DOM.
 
 
+const contenedorTarjetas = document.getElementById('contenedor-tarjetas')
+
+
 function imagenProducto(){
-    imagenes.push(productList)
+    let placementSexo
+    productList.forEach((producto) =>{
+        placementSexo = `<img src=${producto.imagenProducto}>
+        <p>${producto.precioProducto}</p>
+        <p>${producto.descripcionProducto}</p>
+        `
+
+
+    })
 }
 
 //como inyectamos esa informacion de array.
