@@ -161,7 +161,7 @@ function closeProductDetailAside (){
 //4324a5880e4d7420a67acf95eac2177a9532f278 - funciona la x y acercando y alejando el producto.
 
 
-//como shiet vamos a inyectar la informacion en el documento. 
+//como shiet vamos a inyectar la informacion en el documento. como vamos a ligar la informacion del push del documento al DOM.  
 
 
 
