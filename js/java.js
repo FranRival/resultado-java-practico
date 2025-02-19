@@ -165,3 +165,39 @@ function closeProductDetailAside (){
 
 
 
+
+
+
+
+/* 
+
+const inyeccion = document.getElementById('inyectarAqui')
+
+
+function imagenProducto(){
+    let placementSexo
+    productList.forEach((producto) =>{
+        placementSexo = `<img src=${producto.imagenProducto}>
+        <p>${producto.precioProducto}</p>
+        <p>${producto.descripcionProducto}</p>
+        `
+        inyeccion.innerHTML+=placementSexo
+    })
+}
+
+//como inyectamos esta funcion
+//como ligamos la informacion de arriba al push de esta pagina.
+
+const imagenes = []
+
+class Mokepon{
+    constructor(imagenProducto,precioProducto,descripcionProducto,){
+        this.imagenProducto = imagenProducto
+        this.precioProducto = precioProducto
+        this.descripcionProducto = descripcionProducto
+        listaProductos = []
+    }//hasta aqui...
+    //we see que podemos inyectar informacion justo con inputs dentro del html
+
+}
+ */
