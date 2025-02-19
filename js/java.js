@@ -166,3 +166,10 @@ function closeProductDetailAside (){
 //como jalamos la informacion al DOM.
 
 
+function imagenProducto(){
+    imagenes.push(productList)
+}
+
+//como inyectamos esa informacion de array.
+
+const imagenes = []
