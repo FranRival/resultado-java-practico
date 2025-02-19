@@ -169,7 +169,7 @@ function closeProductDetailAside (){
 
 
 
-/* 
+
 
 const inyeccion = document.getElementById('inyectarAqui')
 
@@ -197,7 +197,7 @@ class Mokepon{
         this.descripcionProducto = descripcionProducto
         listaProductos = []
     }//hasta aqui...
-    //we see que podemos inyectar informacion justo con inputs dentro del html
+    //cambiamos de rama.
 
 }
- */
+
