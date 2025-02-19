@@ -207,11 +207,6 @@ class Mokepon{
 const parrafoPrueba = document.getElementById('parrafo-de-prueba')
 
 function escribirSobreParrafo(){
-    let placementSexo
-    productList.forEach(() =>{
-        placementSexo = `<p>dffdfdf</p>
-        `
-        parrafoPrueba.innerHTML+=placementSexo
-        //no esta imprimiendose en HTML prueba basica
-    })
+    let placementSexo = "dfdd"
+    parrafoPrueba.innerHTML=placementSexo
 }
