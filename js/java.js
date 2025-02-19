@@ -162,6 +162,7 @@ function closeProductDetailAside (){
 
 
 //inyectar la informacion: HOW
+//el detalle esta en la linea 166 del HTML.
 
 
 
