@@ -173,3 +173,13 @@ function imagenProducto(){
 //como inyectamos esa informacion de array.
 
 const imagenes = []
+
+class Mokepon{
+    constructor(imagenProducto,precioProducto,descripcionProducto,){
+        this.imagenProducto = imagenProducto
+        this.precioProducto = precioProducto
+        this.descripcionProducto = descripcionProducto
+        listaProductos = []
+    }//hasta ahi me acuerdo.
+
+}
