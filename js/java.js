@@ -52,8 +52,10 @@ function toggleCarritoMenu (){
 
 
 
-const productList = []
-
+//const productList = []
+let productList = new Mokepon
+let productList1 = new Mokepon
+let productList2 = new Mokepon
 
 productList.push({
     name: 'iphone',
@@ -61,17 +63,18 @@ productList.push({
     imagen: 'https://png.pngtree.com/png-clipart/20231005/original/pngtree-iphone-15-purple-png-image_13279636.png',
 })
 
-productList.push({
+productList1.push({
     name: 'reloj',
     price: 220,
     imagen: 'https://itronics.in/wp-content/uploads/2022/08/Series7-SS_Blue-03.png',
 })
 
-productList.push({
+productList2.push({
     name: 'Computador',
     price: 620,
     imagen: 'https://images.prom.ua/4088483101_w600_h600_4088483101.jpg',
 })
+
 
 
 
@@ -180,6 +183,7 @@ class Mokepon{
         this.precioProducto = precioProducto
         this.descripcionProducto = descripcionProducto
         listaProductos = []
-    }//hasta ahi me acuerdo.
+    }//hasta aqui...
+    //we see que podemos inyectar informacion justo con inputs dentro del html
 
 }
