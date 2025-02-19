@@ -178,11 +178,11 @@ function imagenProducto(){
         <p>${producto.descripcionProducto}</p>
         `
         inyeccion.innerHTML+=placementSexo
+        //segun esta madre esta siendo llamada desde el html
     })
 }
 
-//como inyectamos esta funcion
-//como ligamos la informacion de arriba al push de esta pagina.
+//tal vez el error es que no es la misma entrada de datos. misma estructura. 
 
 const imagenes = []
 
@@ -196,3 +196,6 @@ class Mokepon{
     //we see que podemos inyectar informacion justo con inputs dentro del html
 
 }
+
+//imagen producto funciona gracias a Mokepon.
+//como inyectamos la funcion de imagenProducto
