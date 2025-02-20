@@ -204,9 +204,13 @@ class Mokepon{
 
 
 
-const parrafoPrueba = document.getElementById('parrafo-de-prueba')
+const parrafoPrueba = document.getElementById('inyectarAqui')
 
 function escribirSobreParrafo(){
     let placementSexo = "dfdd"
     parrafoPrueba.innerHTML=placementSexo
 }
+
+//no foking know how se puede hacer esta inyeccion de contenido. 
+
+//una solution more: revisar la funcion de combate. que escribe las vidas del jugador. de ahi el mecanismo. 
