@@ -201,3 +201,6 @@ class Mokepon{
 
 }
 
+
+
+//probando otras soluciones en la rama2. revisar combate en mokepon. posible solucion a la cantidad de vidas. 
