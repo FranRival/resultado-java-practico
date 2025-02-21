@@ -174,8 +174,14 @@ function closeProductDetailAside (){
 const inyeccion = document.getElementById('inyectarAqui')
 
 
+function dePrueba(prueba){
+    inyeccion.innerHTML=prueba
+}
+
+
 function imagenProducto(){
     let placementSexo
+    dePrueba('AAAAAA')
     productList.forEach((producto) =>{
         placementSexo = `<img src=${producto.imagenProducto}>
         <p>${producto.precioProducto}</p>
