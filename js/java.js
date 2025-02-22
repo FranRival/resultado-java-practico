@@ -178,6 +178,8 @@ function dePrueba(prueba){
     inyeccion.innerHTML=prueba
 }
 
+//probably here is the error. ahora lo que we need to do is que se escriba en la pagina.
+
 
 function imagenProducto(){
     let placementSexo
@@ -207,6 +209,8 @@ class Mokepon{
 
 }
 
+
+//lo que si se es que tenemos que volver a ver tutoriales de programacion. 
 
 
 //probando otras soluciones en la rama2. revisar combate en mokepon. posible solucion a la cantidad de vidas. 
