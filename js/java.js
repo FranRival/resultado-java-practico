@@ -209,3 +209,6 @@ class Mokepon{
     //cambiamos de rama.
 }
 
+
+
+///logramos imprimir en pantalla los corazones en rama2.
