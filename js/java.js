@@ -165,8 +165,8 @@ function closeProductDetailAside (){
 
 
 
-
-
+/* 
+const inyeccion = document.getElementById('#inyectarAqui')
 
 
 function imagenProducto(){
@@ -180,12 +180,7 @@ function imagenProducto(){
     })
 }
 
-
-const inyeccion = document.getElementById('#inyectarAqui')
-
-
-
-class Mokepon{
+class Mokepon{ //sin uso.
     constructor(imagenProducto,precioProducto,descripcionProducto,){
         this.imagenProducto = imagenProducto
         this.precioProducto = precioProducto
@@ -195,8 +190,6 @@ class Mokepon{
 }
 
 
-
-
 function escribirSobreParrafo(){
     let placementSexo = "dfdd"
     parrafoPrueba.innerHTML=placementSexo
@@ -204,3 +197,35 @@ function escribirSobreParrafo(){
 
 
 const parrafoPrueba = document.getElementById('inyectarAqui')
+ */
+
+
+
+
+const emojis = {
+    '-': ' ',
+    O: '🚪',
+    X: '💣',
+    I: '🎁',
+    PLAYER: '💀',
+    BOMB_COLLISION: '🔥',
+    GAME_OVER: '👎',
+    WIN: '🏆',
+    HEART: '❤',
+  };
+  
+  let lives = 100;
+  const spanLives = document.querySelector('#inyectarAqui')
+  
+  function showLives() {
+    console.log('jjnjnjnjnjn')
+    const heartArray = Array(lives).fill(emojis['HEART']);
+  
+    spanLives.innerHTML = '';
+    heartArray.forEach(heart => spanLives.append(heart));
+  }
+  
+  
+  showLives()
+
+  //se logra imprimir en pantalla los corazones. But encima de los productos. no en el siguiente producto del grid de la lista.
