@@ -167,7 +167,6 @@ function closeProductDetailAside (){
 
 
 
-const inyeccion = document.getElementById('inyectarAqui')
 
 
 function imagenProducto(){
@@ -178,13 +177,13 @@ function imagenProducto(){
         <p>${producto.descripcionProducto}</p>
         `
         inyeccion.innerHTML+=placementSexo
-        //segun esta madre esta siendo llamada desde el html
     })
 }
 
-//tal vez el error es que no es la misma entrada de datos. misma estructura. 
 
-const imagenes = []
+const inyeccion = document.getElementById('#inyectarAqui')
+
+
 
 class Mokepon{
     constructor(imagenProducto,precioProducto,descripcionProducto,){
@@ -192,25 +191,16 @@ class Mokepon{
         this.precioProducto = precioProducto
         this.descripcionProducto = descripcionProducto
         listaProductos = []
-    }//hasta aqui...
-    //we see que podemos inyectar informacion justo con inputs dentro del html
-
+    }
 }
 
-//imagen producto funciona gracias a Mokepon.
-//como inyectamos la funcion de imagenProducto
 
 
-
-
-
-const parrafoPrueba = document.getElementById('inyectarAqui')
 
 function escribirSobreParrafo(){
     let placementSexo = "dfdd"
     parrafoPrueba.innerHTML=placementSexo
 }
 
-//no foking know how se puede hacer esta inyeccion de contenido. 
 
-//una solution more: revisar la funcion de combate. que escribe las vidas del jugador. de ahi el mecanismo. 
+const parrafoPrueba = document.getElementById('inyectarAqui')
