@@ -195,6 +195,7 @@ function imagenProducto(){
 
 //como inyectamos esta funcion
 //como ligamos la informacion de arriba al push de esta pagina.
+//en proceso.
 
 const imagenes = []
 
@@ -206,11 +207,5 @@ class Mokepon{
         listaProductos = []
     }//hasta aqui...
     //cambiamos de rama.
-
 }
 
-
-//lo que si se es que tenemos que volver a ver tutoriales de programacion. 
-
-
-//probando otras soluciones en la rama2. revisar combate en mokepon. posible solucion a la cantidad de vidas. 
