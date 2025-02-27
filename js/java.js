@@ -73,6 +73,9 @@ productList.push({
     imagen: 'https://images.prom.ua/4088483101_w600_h600_4088483101.jpg',
 })
 
+function zoom(){//colocamos el onclick
+}
+
 
 
 
@@ -130,6 +133,8 @@ function closeProductDetailAside (){
     productDetailConteined.classList.add('inactive')
 }
 
+
+//viene el zoom de un AddEventListener. y antes, de identificar y ligar con el DOM.
 
 
 //9c2172001d1ec05c18d9b3ab64bd82cd806453bb - nada. 
