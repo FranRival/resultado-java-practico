@@ -74,9 +74,14 @@ productList.push({
 })
 
 function zoom(){//colocamos el onclick
+    productList.imagen
+    //una funcion dentro de otra funcion.
 }
 
 
+
+//meaby el secret the all of this shiet este en this modofoko function.
+//zho,... como la vamos a analizate
 
 
 function renderProducts (arr){
