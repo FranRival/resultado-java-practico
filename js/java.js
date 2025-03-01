@@ -212,3 +212,5 @@ class Mokepon{
 
 
 ///logramos imprimir en pantalla los corazones en rama2.
+
+//el secret esta en la funcion de renderProducts
