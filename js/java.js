@@ -243,3 +243,5 @@ const emojis = {
   showLives()
 
   //se logra imprimir en pantalla los corazones. But encima de los productos. no en el siguiente producto del grid de la lista.
+
+  //el secret esta en la funcion de renderProducts
