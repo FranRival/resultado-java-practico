@@ -104,6 +104,8 @@ function renderProducts (arr){
         const productName = document.createElement('div')
         productName.innerText = product.name
     
+        //es para crear nuevos de HTML. con create element.
+        //luego con appendChild.
         productInfoDiv.appendChild(productPrice)
         productInfoDiv.appendChild(productName) 
 
