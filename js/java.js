@@ -86,9 +86,13 @@ function zoom(){//colocamos el onclick
 
 function renderProducts (arr){
     for (product of arr) { 
+        //esqueleto y estructura del preview de la imagen
+
+        //se crea la division.
         const productCard = document.createElement('div')
         productCard.classList.add('product-card')
-    
+
+        //se crea el elemento imagen
         const productImg = document.createElement('img')
         productImg.setAttribute('src', product.imagen)
         productImg.addEventListener('click', openProductDetailAside)
@@ -97,7 +101,6 @@ function renderProducts (arr){
         productInfo.classList.add('product-card') 
     
         const productInfoDiv = document.createElement('div')
-    
     
         const productPrice = document.createElement('div')
         productPrice.innerText = '$' + product.price
@@ -131,7 +134,6 @@ renderProducts(productList)
 
 
 function openProductDetailAside (){
-
     shoppingCartContainer.classList.add('inactive')
     productDetailConteined.classList.remove('inactive')
 }
