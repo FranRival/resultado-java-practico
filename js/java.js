@@ -93,6 +93,7 @@ function renderProducts (arr){
         productCard.classList.add('product-card')
 
         //se crea el elemento imagen
+        //ahi mismo se debe linkear a la nueva foto del js
         const productImg = document.createElement('img')
         productImg.setAttribute('src', product.imagen)
         productImg.addEventListener('click', openProductDetailAside)
@@ -128,7 +129,16 @@ function renderProducts (arr){
     }
 }
 
-//appendChild tiene limitaciones a menos que se utilice en un ciclo for.
+/* productCard
+productImg
+productInfo
+productInfoDiv
+productPrice
+productName
+productInfoFigure
+productImgCart
+ */
+
 
 
 renderProducts(productList)
