@@ -114,6 +114,8 @@ function renderProducts (arr){
     }
 }
 
+//8 variables de construccion de esta funcion.
+
 
 
 renderProducts(productList)
