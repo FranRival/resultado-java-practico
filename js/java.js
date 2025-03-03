@@ -97,7 +97,7 @@ function renderProducts (arr){
         //ahi mismo se debe linkear a la nueva foto del js
         const productImg = document.createElement('img')
         productImg.setAttribute('src', product.imagen) //el tipo de dato: src. y la direccion de product.image
-        productImg.addEventListener('click', openProductDetailAside)
+        productImg.addEventListener('click', openProductDetailAside)//eliminar esta instancia elimina el click y despliegue de la imagen
     
         const productInfo = document.createElement('div')
         productInfo.classList.add('product-card') 
@@ -129,6 +129,8 @@ function renderProducts (arr){
         cardsContiner.appendChild(productCard)
     }
 }
+
+//desde aqui inyectar la info>
 
 /* productCard
 productImg
