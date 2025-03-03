@@ -91,11 +91,12 @@ function renderProducts (arr){
         //se crea la division.
         const productCard = document.createElement('div')
         productCard.classList.add('product-card')
+        //this is CSS
 
         //se crea el elemento imagen
         //ahi mismo se debe linkear a la nueva foto del js
         const productImg = document.createElement('img')
-        productImg.setAttribute('src', product.imagen)
+        productImg.setAttribute('src', product.imagen) //el tipo de dato: src. y la direccion de product.image
         productImg.addEventListener('click', openProductDetailAside)
     
         const productInfo = document.createElement('div')
