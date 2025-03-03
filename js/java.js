@@ -128,6 +128,7 @@ function renderProducts (arr){
     }
 }
 
+//appendChild tiene limitaciones a menos que se utilice en un ciclo for.
 
 
 renderProducts(productList)
