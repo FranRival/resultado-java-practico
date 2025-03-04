@@ -86,6 +86,12 @@ function zoom(){//colocamos el onclick
 //como las llamamos o las inyectamos
 
 
+/* let i = 0; i < productList.length; i++
+const nombreProducto = productList[i].name
+nombreProducto.push */
+
+
+
 function pruebaArray(){
     const array1 = productList.values()
     for(const value of array1){
