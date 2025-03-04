@@ -83,6 +83,7 @@ function renderProducts (arr){
         const productImg = document.createElement('img')
         productImg.setAttribute('src', product.imagen)
         productImg.addEventListener('click', openProductDetailAside)
+        ////eliminar esta instancia elimina el click y despliegue de la imagen
     
         const productInfo = document.createElement('div')
         productInfo.classList.add('product-card') 
