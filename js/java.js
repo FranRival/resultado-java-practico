@@ -81,9 +81,10 @@ function zoom(){//colocamos el onclick
 }
 
 
+//para acceder a las variables hay que hacer this:
+//productList[0].name
+//como las llamamos o las inyectamos
 
-//meaby el secret the all of this shiet este en this modofoko function.
-//zho,... como la vamos a analizate
 
 
 function renderProducts (arr){
