@@ -86,6 +86,17 @@ function zoom(){//colocamos el onclick
 //como las llamamos o las inyectamos
 
 
+function pruebaArray(){
+    const array1 = productList.values()
+    for(const value of array1){
+        console.log(value);
+        console.log(productList[0].name);
+    }        //como hacer un loop para recoger solo los nombres de las variables
+}
+
+
+
+
 
 function renderProducts (arr){
     for (product of arr) { 
