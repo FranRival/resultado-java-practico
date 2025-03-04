@@ -61,6 +61,8 @@ productList.push({
     imagen: 'https://png.pngtree.com/png-clipart/20231005/original/pngtree-iphone-15-purple-png-image_13279636.png',
 })
 
+//todo es lo same. no obtiene nombres ni precio ni imagen.
+
 productList.push({
     name: 'reloj',
     price: 220,
