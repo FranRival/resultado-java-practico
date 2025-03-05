@@ -92,17 +92,42 @@ nombreProducto.push */
 
 
 
-function pruebaArray(){
-    const array1 = productList.values()
+function pruebaNombre(){
+  //  const array1 = productList.values()
 
-    for(const value of array1){
+   // for(const value of array1){
         for(let i =0;i < productList.length;i++){
             //console.log(value);
             console.log(productList[i].name);
         }
 
-    }        //como hacer un loop para recoger solo los nombres de las variables
+   // }        //como hacer un loop para recoger solo los nombres de las variables
 }
+
+
+function pruebaPrecio(){
+    //  const array1 = productList.values()
+  
+     // for(const value of array1){
+          for(let i =0;i < productList.length;i++){
+              //console.log(value);
+              console.log(productList[i].price);
+          }
+  
+     // }        //como hacer un loop para recoger solo los nombres de las variables
+  }
+
+  function pruebaImagen(){
+    //  const array1 = productList.values()
+  
+     // for(const value of array1){
+          for(let i =0;i < productList.length;i++){
+              //console.log(value);
+              console.log(productList[i].imagen);
+          }
+  
+     // }        //como hacer un loop para recoger solo los nombres de las variables
+  }
 
 
 
