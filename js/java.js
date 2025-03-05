@@ -191,6 +191,8 @@ renderProducts(productList)
 function openProductDetailAside (){
     shoppingCartContainer.classList.add('inactive')
     productDetailConteined.classList.remove('inactive')
+
+    //aqui donde hacer push.
 }
 
 function closeProductDetailAside (){
