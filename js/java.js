@@ -198,9 +198,7 @@ function imagenProducto(){
     })
 }
 
-//como inyectamos esta funcion
-//como ligamos la informacion de arriba al push de esta pagina.
-//en proceso.
+//i dont know como inyectamos la info?
 
 const imagenes = []
 
