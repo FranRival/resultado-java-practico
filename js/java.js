@@ -77,27 +77,13 @@ productList.push({
 
 
 
-//para acceder a las variables hay que hacer this:
-//productList[0].name
-//como las llamamos o las inyectamos
-
-
-/* let i = 0; i < productList.length; i++
-const nombreProducto = productList[i].name
-nombreProducto.push */
 
 
 
 function pruebaNombre(){
-  //  const array1 = productList.values()
-
-   // for(const value of array1){
         for(let i =0;i < productList.length;i++){
-            //console.log(value);
             console.log(productList[i].name);
         }
-
-   // }        //como hacer un loop para recoger solo los nombres de las variables
 }
 
 
