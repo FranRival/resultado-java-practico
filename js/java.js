@@ -94,9 +94,9 @@ nombreProducto.push */
 
 function pruebaArray(){
     const array1 = productList.values()
+    console.log(productList[0].name);
     for(const value of array1){
         console.log(value);
-        console.log(productList[0].name);
     }        //como hacer un loop para recoger solo los nombres de las variables
 }
 
