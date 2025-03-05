@@ -106,31 +106,19 @@ function pruebaNombre(){
 
 
 function pruebaPrecio(){
-    //  const array1 = productList.values()
-  
-     // for(const value of array1){
           for(let i =0;i < productList.length;i++){
-              //console.log(value);
               console.log(productList[i].price);
           }
-  
-     // }        //como hacer un loop para recoger solo los nombres de las variables
   }
 
   function pruebaImagen(){
-    //  const array1 = productList.values()
-  
-     // for(const value of array1){
           for(let i =0;i < productList.length;i++){
-              //console.log(value);
               console.log(productList[i].imagen);
           }
-  
-     // }        //como hacer un loop para recoger solo los nombres de las variables
   }
 
 
-
+//como push los datos
 
 
 function renderProducts (arr){
@@ -145,7 +133,10 @@ function renderProducts (arr){
         //se crea el elemento imagen
         //ahi mismo se debe linkear a la nueva foto del js
         const productImg = document.createElement('img')
-        productImg.setAttribute('src', product.imagen) //el tipo de dato: src. y la direccion de product.image
+        productImg.setAttribute('src', product.imagen) 
+        
+
+
         productImg.addEventListener('click', openProductDetailAside)//eliminar esta instancia elimina el click y despliegue de la imagen
     
         const productInfo = document.createElement('div')
