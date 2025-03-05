@@ -75,10 +75,6 @@ productList.push({
     imagen: 'https://images.prom.ua/4088483101_w600_h600_4088483101.jpg',
 })
 
-function zoom(){//colocamos el onclick
-    productList.imagen
-    //una funcion dentro de otra funcion.
-}
 
 
 //para acceder a las variables hay que hacer this:
@@ -123,15 +119,10 @@ function pruebaPrecio(){
 
 function renderProducts (arr){
     for (product of arr) { 
-        //esqueleto y estructura del preview de la imagen
-
-        //se crea la division.
         const productCard = document.createElement('div')
         productCard.classList.add('product-card')
-        //this is CSS
 
-        //se crea el elemento imagen
-        //ahi mismo se debe linkear a la nueva foto del js
+        
         const productImg = document.createElement('img')
         productImg.setAttribute('src', product.imagen) 
         
@@ -147,11 +138,13 @@ function renderProducts (arr){
     
         const productPrice = document.createElement('div')
         productPrice.innerText = '$' + product.price
+        //productList[i].price
         const productName = document.createElement('div')
         productName.innerText = product.name
+        //productList[i].name
     
-        //es para crear nuevos de HTML. con create element.
-        //luego con appendChild.
+
+        
         productInfoDiv.appendChild(productPrice)
         productInfoDiv.appendChild(productName) 
 
@@ -191,8 +184,6 @@ renderProducts(productList)
 function openProductDetailAside (){
     shoppingCartContainer.classList.add('inactive')
     productDetailConteined.classList.remove('inactive')
-
-    //aqui donde hacer push.
 }
 
 function closeProductDetailAside (){
@@ -200,7 +191,7 @@ function closeProductDetailAside (){
 }
 
 
-//viene el zoom de un AddEventListener. y antes, de identificar y ligar con el DOM.
+//como modofoco podemos hacer una inyeccion de datos
 
 
 //9c2172001d1ec05c18d9b3ab64bd82cd806453bb - nada. 
