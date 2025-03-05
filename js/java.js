@@ -138,6 +138,7 @@ function renderProducts (arr){
 
 
         productImg.addEventListener('click', openProductDetailAside)//eliminar esta instancia elimina el click y despliegue de la imagen
+        //es aqui donde se debe actualizar la informacion
     
         const productInfo = document.createElement('div')
         productInfo.classList.add('product-card') 
