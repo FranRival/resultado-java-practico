@@ -117,6 +117,8 @@ function renderProducts (arr){
 
 //8 variables de construccion de esta funcion.
 
+//un pull en rama2.
+
 
 
 renderProducts(productList)
