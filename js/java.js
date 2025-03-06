@@ -93,6 +93,8 @@ function pruebaPrecio(){
           }
   }
 
+
+
   function pruebaImagen(){
           for(let i =0;i < productList.length;i++){
               console.log(productList[i].imagen);
@@ -111,11 +113,13 @@ function renderProducts (arr){
         
         const productImg = document.createElement('img')
         productImg.setAttribute('src', product.imagen) 
+        //aqui es donde se inyecta la informacion
+        //maneras en las que se puede inyectar la informacion:
+        //javascript. por dom. por funciones. funciones derivadas de datos a otra.
         
 
 
-        productImg.addEventListener('click', openProductDetailAside)//eliminar esta instancia elimina el click y despliegue de la imagen
-        //es aqui donde se debe actualizar la informacion
+        productImg.addEventListener('click', openProductDetailAside)
     
         const productInfo = document.createElement('div')
         productInfo.classList.add('product-card') 
