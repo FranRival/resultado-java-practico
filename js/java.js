@@ -61,7 +61,6 @@ productList.push({
     imagen: 'https://png.pngtree.com/png-clipart/20231005/original/pngtree-iphone-15-purple-png-image_13279636.png',
 })
 
-//todo es lo same. no obtiene nombres ni precio ni imagen.
 
 productList.push({
     name: 'reloj',
@@ -95,11 +94,15 @@ function pruebaPrecio(){
 
 
 
-  function pruebaImagen(){
+function pruebaImagen(){
           for(let i =0;i < productList.length;i++){
               console.log(productList[i].imagen);
           }
   }
+
+  function terciaria(ataque){//dentro de esta funcion, el valor de arriba
+   ataque =  productList[0].imagen
+  }//para que esta funcion y como conectarla.
 
 
 //como push los datos
