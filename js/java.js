@@ -106,6 +106,7 @@ function pruebaImagen(){
 
 
 //como push los datos
+//no se como luce o deberia lucir la estructura de programacion para enviar los datos
 
 
 function renderProducts (arr){
