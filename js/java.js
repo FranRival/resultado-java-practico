@@ -124,6 +124,7 @@ function renderProducts (arr){
 
 
         productImg.addEventListener('click', openProductDetailAside)
+        ////eliminar esta instancia elimina el click y despliegue de la imagen
     
         const productInfo = document.createElement('div')
         productInfo.classList.add('product-card') 
@@ -218,15 +219,29 @@ function closeProductDetailAside (){
 //4324a5880e4d7420a67acf95eac2177a9532f278 - funciona la x y acercando y alejando el producto.
 
 
+//como shiet vamos a inyectar la informacion en el documento. como vamos a ligar la informacion del push del documento al DOM.  
 
 
 
-/* 
-const inyeccion = document.getElementById('#inyectarAqui')
+
+
+
+
+
+
+const inyeccion = document.getElementById('inyectarAqui')
+
+
+function dePrueba(prueba){
+    inyeccion.innerHTML=prueba
+}
+
+//probably here is the error. ahora lo que we need to do is que se escriba en la pagina.
 
 
 function imagenProducto(){
     let placementSexo
+    dePrueba('AAAAAA')
     productList.forEach((producto) =>{
         placementSexo = `<img src=${producto.imagenProducto}>
         <p>${producto.precioProducto}</p>
@@ -253,7 +268,7 @@ function escribirSobreParrafo(){
 
 
 const parrafoPrueba = document.getElementById('inyectarAqui')
- */
+ 
 
 
 
