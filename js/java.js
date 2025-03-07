@@ -56,32 +56,74 @@ const productList = []
 
 
 productList.push({
-    name: 'bike',
+    name: 'iphone',
     price: 120,
-    imagen: 'https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+    imagen: 'https://png.pngtree.com/png-clipart/20231005/original/pngtree-iphone-15-purple-png-image_13279636.png',
 })
 
+
 productList.push({
-    name: 'pantalla',
+    name: 'reloj',
     price: 220,
-    imagen: 'https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+    imagen: 'https://itronics.in/wp-content/uploads/2022/08/Series7-SS_Blue-03.png',
 })
 
 productList.push({
     name: 'Computador',
     price: 620,
-    imagen: 'https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940',
+    imagen: 'https://images.prom.ua/4088483101_w600_h600_4088483101.jpg',
 })
 
+
+
+
+
+
+function pruebaNombre(){
+        for(let i =0;i < productList.length;i++){
+            console.log(productList[i].name);
+        }
+}
+
+
+function pruebaPrecio(){
+          for(let i =0;i < productList.length;i++){
+              console.log(productList[i].price);
+          }
+  }
+
+
+  //hacer un pull request desde git
+
+function pruebaImagen(){
+          for(let i =0;i < productList.length;i++){
+              console.log(productList[i].imagen);
+          }
+  }
+
+  function terciaria(ataque){//dentro de esta funcion, el valor de arriba
+   ataque =  productList[0].imagen
+  }//para que esta funcion y como conectarla.
+
+
+//como push los datos
+//no se como luce o deberia lucir la estructura de programacion para enviar los datos
 
 
 function renderProducts (arr){
     for (product of arr) { 
         const productCard = document.createElement('div')
         productCard.classList.add('product-card')
-    
+
+        
         const productImg = document.createElement('img')
-        productImg.setAttribute('src', product.imagen)
+        productImg.setAttribute('src', product.imagen) 
+        //aqui es donde se inyecta la informacion
+        //maneras en las que se puede inyectar la informacion:
+        //javascript. por dom. por funciones. funciones derivadas de datos a otra.
+        
+
+
         productImg.addEventListener('click', openProductDetailAside)
         ////eliminar esta instancia elimina el click y despliegue de la imagen
     
@@ -90,12 +132,15 @@ function renderProducts (arr){
     
         const productInfoDiv = document.createElement('div')
     
-    
         const productPrice = document.createElement('div')
         productPrice.innerText = '$' + product.price
+        //productList[i].price
         const productName = document.createElement('div')
         productName.innerText = product.name
+        //productList[i].name
     
+
+        
         productInfoDiv.appendChild(productPrice)
         productInfoDiv.appendChild(productName) 
 
@@ -115,9 +160,17 @@ function renderProducts (arr){
     }
 }
 
-//8 variables de construccion de esta funcion.
+//desde aqui inyectar la info>
 
-//creo que ya no existe mas ese curso que vimos para hacer la pagina web.
+/* productCard
+productImg
+productInfo
+productInfoDiv
+productPrice
+productName
+productInfoFigure
+productImgCart
+ */
 
 
 
@@ -125,7 +178,6 @@ renderProducts(productList)
 
 
 function openProductDetailAside (){
-
     shoppingCartContainer.classList.add('inactive')
     productDetailConteined.classList.remove('inactive')
 }
@@ -134,6 +186,8 @@ function closeProductDetailAside (){
     productDetailConteined.classList.add('inactive')
 }
 
+
+//como modofoco podemos hacer una inyeccion de datos
 
 
 //9c2172001d1ec05c18d9b3ab64bd82cd806453bb - nada. 
@@ -198,20 +252,54 @@ function imagenProducto(){
     })
 }
 
-//i dont know como inyectamos la info?
-
-const imagenes = []
-
-class Mokepon{
+class Mokepon{ //sin uso.
     constructor(imagenProducto,precioProducto,descripcionProducto,){
         this.imagenProducto = imagenProducto
         this.precioProducto = precioProducto
         this.descripcionProducto = descripcionProducto
         listaProductos = []
-    }//hasta aqui...
-    //cambiamos de rama.
+    }
 }
 
 
+function escribirSobreParrafo(){
+    let placementSexo = "dfdd"
+    parrafoPrueba.innerHTML=placementSexo
+}
 
-///cuando fuciones las 2 ramas en una sola.
+
+const parrafoPrueba = document.getElementById('inyectarAqui')
+ 
+
+
+
+
+const emojis = {
+    '-': ' ',
+    O: '🚪',
+    X: '💣',
+    I: '🎁',
+    PLAYER: '💀',
+    BOMB_COLLISION: '🔥',
+    GAME_OVER: '👎',
+    WIN: '🏆',
+    HEART: '❤',
+  };
+  
+  let lives = 100;
+  const spanLives = document.querySelector('#inyectarAqui')
+  
+  function showLives() {
+    console.log('jjnjnjnjnjn')
+    const heartArray = Array(lives).fill(emojis['HEART']);
+  
+    spanLives.innerHTML = '';
+    heartArray.forEach(heart => spanLives.append(heart));
+  }
+  
+  
+  showLives()
+
+  //se logra imprimir en pantalla los corazones. But encima de los productos. no en el siguiente producto del grid de la lista.
+
+  //el secret esta en la funcion de renderProducts
