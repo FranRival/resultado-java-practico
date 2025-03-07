@@ -117,7 +117,7 @@ function renderProducts (arr){
 
 //8 variables de construccion de esta funcion.
 
-//un pull en rama2.
+//creo que ya no existe mas ese curso que vimos para hacer la pagina web.
 
 
 
