@@ -93,6 +93,7 @@ function pruebaPrecio(){
   }
 
 
+  //hacer un pull request desde git
 
 function pruebaImagen(){
           for(let i =0;i < productList.length;i++){
