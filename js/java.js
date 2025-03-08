@@ -227,7 +227,7 @@ function closeProductDetailAside (){
 
 
 ///explorando mas en javascript.
-
+//Splice y pop: 
 
 
 
