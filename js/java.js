@@ -226,6 +226,9 @@ function closeProductDetailAside (){
 
 
 
+///explorando mas en javascript.
+
+
 
 
 
